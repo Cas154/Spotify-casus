@@ -1,9 +1,9 @@
 ﻿namespace Spotify_Casus
 {
-    internal class Vriendenlijst
+    internal class Friendlist
     {
         public List<Vriend> Vrienden { get; set; }
-        public Vriendenlijst()
+        public Friendlist()
         {
             Vrienden = new List<Vriend>();
         }

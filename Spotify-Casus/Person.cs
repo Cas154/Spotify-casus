@@ -5,7 +5,7 @@
 
         public string Name { get; set; }
         public List<Playlists> playlists = new List<Playlists>();
-        public Vriendenlijst vriendenlijst = new Vriendenlijst();
+        public Friendlist vriendenlijst = new Friendlist();
 
         public Person(string name)
         {

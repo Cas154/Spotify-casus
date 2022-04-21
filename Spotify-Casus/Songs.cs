@@ -14,6 +14,10 @@
             Genre = genre;
             Duration = duration;
         }
+        public override string ToString()
+        {
+            return $"{Name} - {Artist} - {Genre} - {Duration}";
+        }
 
 
     }

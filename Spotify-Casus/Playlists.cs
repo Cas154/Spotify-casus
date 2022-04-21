@@ -1,9 +1,10 @@
 ﻿namespace Spotify_Casus
 {
-    internal class Playlists
+    internal class Playlists : Class1, Player 
     {
-        public string Title { get; set; }
-        public int Duration { get; set; }
+    
+        
+        
         public List<string> Tracks { get; set; }
 
         public void addTrack(string track)
@@ -26,5 +27,30 @@
             return Title;
         }
 
+        public void Play(string song)
+        {
+            Console.WriteLine("Playing " + song);
+            throw new NotImplementedException();
+        }
+
+        public void Pause()
+        {
+            Console.WriteLine("Paused");
+            throw new NotImplementedException();
+        }
+
+        public void skip()
+        {
+            Console.WriteLine("Skipped");
+            
+            throw new NotImplementedException();
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("Stopped");
+            System.Environment.Exit(0);
+            throw new NotImplementedException();
+        }
     }
 }
