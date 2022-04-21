@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Spotify_Casus
+﻿namespace Spotify_Casus
 {
     internal class Playlists
     {
@@ -26,6 +20,10 @@ namespace Spotify_Casus
             Title = title;
             Duration = duration;
             Tracks = tracks;
+        }
+        public string getName()
+        {
+            return Title;
         }
 
     }

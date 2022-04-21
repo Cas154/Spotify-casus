@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Spotify_Casus
+﻿namespace Spotify_Casus
 {
     internal class Person
     {
@@ -23,6 +17,17 @@ namespace Spotify_Casus
             foreach (Vriend p in vriendenlijst.Vrienden)
             {
                 Console.WriteLine(p.getName());
+
+            }
+            
+        }
+        public void printPlaylists()
+        {
+            Console.WriteLine("Playlists van " + Name);
+            foreach (Playlists p in playlists)
+            {
+                Console.WriteLine(p.getName());
+
             }
         }
 

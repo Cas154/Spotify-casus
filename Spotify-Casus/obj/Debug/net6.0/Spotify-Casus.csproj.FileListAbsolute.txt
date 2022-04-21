@@ -1,0 +1,17 @@
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\Spotify-Casus.exe
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\Spotify-Casus.deps.json
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\Spotify-Casus.runtimeconfig.json
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\Spotify-Casus.dll
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\Spotify-Casus.pdb
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\bin\Debug\net6.0\GenFu.dll
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.csproj.AssemblyReference.cache
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.AssemblyInfoInputs.cache
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.AssemblyInfo.cs
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.csproj.CopyComplete
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.dll
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\refint\Spotify-Casus.dll
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.pdb
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\Spotify-Casus.genruntimeconfig.cache
+C:\Users\peter\source\repos\Spotify-Casus\Spotify-Casus\obj\Debug\net6.0\ref\Spotify-Casus.dll
