@@ -2,38 +2,55 @@
 {
     internal class Friendlist
     {
-        public List<Vriend> Vrienden { get; set; }
+        public List<Vriend> Vrienden { get; set; } = new List<Vriend>();
         public Friendlist()
         {
             Vrienden = new List<Vriend>();
         }
-        public void AddVriend(Vriend vriend)
+        public void AddFriend(string vriend)
         {
-            Vrienden.Add(vriend);
-        }
-        public void RemoveVriend(Vriend vriend)
-        {
-            Vrienden.Remove(vriend);
-        }
-        public void RemoveVriend(string naam)
-        {
-            Vrienden.Remove(Vrienden.Find(x => x.Naam == naam));
-        }
-        public Vriend FindVriend(string naam)
-        {
-            return Vrienden.Find(x => x.Naam == naam);
-        }
-        public void PrintVrienden()
-        {
-            foreach (Vriend vriend in Vrienden)
+            foreach (Vriend v in Vrienden)
             {
-                Console.WriteLine(vriend.Naam);
+                if (v.Naam == vriend)
+                {
+                    Console.WriteLine("Vriend is al toegevoegd");
+                    Thread.Sleep(2300);
+                    return;
+                }                
+            }
+            Vrienden.Add(new Vriend(vriend));
+
+        }
+        public void RemoveFriend(string vriend)
+        {
+            foreach (Vriend v in Vrienden)
+            {
+                if (v.Naam == vriend)
+                {
+                    Vrienden.Remove(v);
+                    return;
+                }
+            }      
+        }
+        public void PrintFriends()
+        {
+            foreach (Vriend v in Vrienden)
+            {
+                Console.WriteLine("your Friends:");
+                Console.WriteLine(v.Naam);
             }
         }
     }
 
     public class Vriend
     {
+        private string vriend;
+
+        public Vriend(string vriend)
+        {
+            Naam = vriend;
+        }
+
         public string Naam { get; internal set; }
         public string getName()
         {

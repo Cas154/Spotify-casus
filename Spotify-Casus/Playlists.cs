@@ -2,26 +2,37 @@
 {
     internal class Playlists : Class1, Player 
     {
-    
-        
-        
-        public List<string> Tracks { get; set; }
 
-        public void addTrack(string track)
+
+
+        public List<Songs> Tracks { get; set; } = new List<Songs>();
+        public string Name { get; }
+        public string Songs { get; }
+        public string Album { get; }
+
+        public void addTrack(Songs track)
         {
             Tracks.Add(track);
         }
-        public void removeTrack(string track)
+        public void removeTrack(Songs track)
         {
             Tracks.Remove(track);
         }
 
-        public Playlists(string title, int duration, List<string> tracks)
+        public Playlists(string title, int duration, List<Songs> tracks)
         {
             Title = title;
             Duration = duration;
             Tracks = tracks;
         }
+
+   //     public Playlists(string name, string songs, string album)
+   //     {
+//Name = name;
+     //       Songs = songs;
+   //         Album = album;
+     //   }
+
         public string getName()
         {
             return Title;
@@ -30,26 +41,20 @@
         public void Play(string song)
         {
             Console.WriteLine("Playing " + song);
-            throw new NotImplementedException();
         }
 
         public void Pause()
         {
             Console.WriteLine("Paused");
-            throw new NotImplementedException();
         }
 
         public void skip()
         {
             Console.WriteLine("Skipped");
-            
-            throw new NotImplementedException();
         }
 
         public void Stop()
         {
-            Console.WriteLine("Stopped");
-            System.Environment.Exit(0);
             throw new NotImplementedException();
         }
     }
